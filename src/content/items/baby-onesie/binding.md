@@ -5,17 +5,16 @@ status: draft
 order: 5
 sources:
   - "Reader's Digest Complete Guide to Sewing"
-  - "Personal sewing notes"
 images: []
 ---
 
 Applies to both the [self-drafted](/items/baby-onesie/self-drafted) and [graded pattern](/items/baby-onesie/graded-pattern) branches.
 
-A onesie is mostly edge finishes. I am collecting the binding methods I might use, then picking a default so I do not reinvent this on every neckline.
+A onesie is mostly edge finishes. Collect the binding methods worth trying, then pick a default so the neckline is not reinvented every time.
 
-Write the steps I actually used after I sample scraps — do not invent stitch settings or tape widths here.
+Write the steps that actually worked after sampling scraps — do not invent stitch settings or tape widths here.
 
-## Where I need binding
+## Where binding is needed
 
 - [ ] Neck
 - [ ] Leg openings
@@ -26,12 +25,12 @@ Write the steps I actually used after I sample scraps — do not invent stitch s
 
 **Recommended default.** Binding that wraps over both the front and back raw edge of the fabric, so the cut edge is enclosed on both sides.
 
-Why I prefer this for baby wear (confirm or revise after sampling):
+Why this suits baby wear (confirm or revise after sampling):
 
 - [ ] No scratchy wrong side against skin
 - [ ] Both faces look finished
 - [ ] Holds a knit edge
-- [ ] Sample on scrap, then write the steps I actually used under this heading
+- [ ] Sample on scrap, then write the steps that actually worked under this heading
 
 ## Method: single-fold binding
 
@@ -49,10 +48,10 @@ Why I prefer this for baby wear (confirm or revise after sampling):
 ## Method: fold-over elastic
 
 - [ ] Sample FOE where stretch matters (for example leg openings)
-- [ ] Note where I still want cloth binding
+- [ ] Note where cloth binding is still preferred
 - [ ] Decide keep, limited use, or skip
 
-## When I might leave the default
+## When to leave the default
 
 - [ ] Note any place wrap-over is too bulky
 - [ ] Note any closure that needs a different finish
@@ -60,10 +59,10 @@ Why I prefer this for baby wear (confirm or revise after sampling):
 
 ## Photo log
 
-- [ ] Scrap samples of each method I try
+- [ ] Scrap samples of each method tried
 - [ ] Finished neck or leg on the garment (no face)
 
 ## Sources
 
 - Reader's Digest for binding types and the usual order of work.
-- My own notes for the wrap-over method I want as the house default on this onesie.
+- Wrap-over binding is the recommended default for this onesie until sampling says otherwise.

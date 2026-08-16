@@ -6,7 +6,6 @@ order: 0
 sources:
   - "Winifred Aldrich, Metric Pattern Cutting for Children's Wear and Babywear"
   - "Reader's Digest Complete Guide to Sewing"
-  - "Personal sewing notes"
 images: []
 specs:
   - label: Sizes
@@ -21,13 +20,13 @@ specs:
 
 This is the first full item: one garment, two ways of arriving at a pattern, then one shared construction path.
 
-I am not treating this as a polished onesie tutorial. I am using it to learn how a baby garment is drafted, graded, cut, fitted, bound, and sewn — and to write it down while it is still messy.
+This is not a polished onesie tutorial. Use it to learn how a baby garment is drafted, graded, cut, fitted, bound, and sewn — and to write the method down while it is still taking shape.
 
 ## Two pattern branches
 
-I am running these in parallel so I can see where they agree and where they fight each other.
+Run these in parallel so you can see where they agree and where they fight each other.
 
-- [Self-drafted](/items/baby-onesie/self-drafted) — measurements compared against a pattern I trace from an outfit that already fits.
+- [Self-drafted](/items/baby-onesie/self-drafted) — measurements compared against a pattern traced from an outfit that already fits.
 - [Graded pattern](/items/baby-onesie/graded-pattern) — measurements compared against a formal or commercial pattern, then graded between sizes.
 
 Both branches are supposed to land on the same body. If they do not, that is the lesson.
@@ -43,14 +42,14 @@ Once either pattern is on paper, the sewing steps are the same:
 5. [Binding](/items/baby-onesie/binding)
 6. [Construction](/items/baby-onesie/construction)
 
-## What I want to learn from this item
+## What to learn from this item
 
 - [ ] How stretch and recovery behave on a baby knit
 - [ ] Which binding methods stay soft and hold a raw edge
-- [ ] How much crotch and diaper ease I actually need
-- [ ] Whether I trust my measurements enough to cut good fabric
+- [ ] How much crotch and diaper ease is actually needed
+- [ ] Whether the measurements are trustworthy enough to cut good fabric
 - [ ] Where the self-drafted and graded patterns agree
-- [ ] Where they fight each other, and which one I trusted more
+- [ ] Where they fight each other, and which one to trust more
 
 ## Photo log
 
@@ -61,4 +60,3 @@ Once either pattern is on paper, the sewing steps are the same:
 
 - Aldrich for measurements, blocks, and children's grading.
 - Reader's Digest for construction, bindings, and working from existing clothes.
-- My own notes as I sew each step.

@@ -5,7 +5,6 @@ status: draft
 order: 1
 sources:
   - "Reader's Digest Complete Guide to Sewing"
-  - "Personal sewing notes"
 images: []
 ---
 
@@ -13,16 +12,16 @@ Applies to both the [self-drafted](/items/baby-onesie/self-drafted) and [graded 
 
 Baby wear has to stretch and then come back. A onesie that bags out at the knee or neck after one wash is a failed fabric choice, even if the pattern was right.
 
-## What I need from the cloth
+## What the cloth needs to do
 
 - [ ] Softness against skin
 - [ ] Stretch for dressing and diapering
 - [ ] Recovery so it does not grow after wear or wash
-- [ ] A fiber I am willing to wash often
+- [ ] A fiber that stands up to frequent washing
 
-## My choice: cotton with a small percentage of nylon
+## Working choice: cotton with a small percentage of nylon
 
-I am using a cotton with a small % nylon blend.
+A cotton with a small nylon blend is a strong default for this garment.
 
 Record facts once the cloth is in hand — do not invent them now.
 
@@ -40,7 +39,7 @@ The cotton is for comfort and everyday washing. The small nylon content is for s
 - [ ] Note recovery after stretch (does it snap back?)
 - [ ] Prewash and note any change in hand or size
 
-## What I am still deciding
+## Decisions still to make
 
 - [ ] Knit vs woven-with-stretch for this cut
 - [ ] Color or print
@@ -56,4 +55,3 @@ The cotton is for comfort and everyday washing. The small nylon content is for s
 ## Sources
 
 - Reader's Digest for fiber behavior, stretch, and choosing cloth for a garment type.
-- My own notes for this specific blend and why I picked it for a baby onesie.

@@ -10,7 +10,7 @@ const nav = buildNav(foundations, items);
 
 const foundationCopy: Record<string, string> = {
   'taking-measurements':
-    'A repeatable method for numbers I can trust before any later page.',
+    'A repeatable method for trustworthy numbers before any later page.',
   'building-a-bodice-block':
     'A children\'s bodice block from measurements, not from a commercial envelope.',
   'using-the-block':
@@ -58,11 +58,11 @@ const firstItem = nav.items[0];
       height="1067"
     />
     <div class="hero-panel">
-      <p class="hero-kicker">Learning in public</p>
+      <p class="hero-kicker">A practical guide</p>
       <h1 class="hero-title">{SITE_TITLE}</h1>
       <p class="hero-lead">
-        Drafting, grading, and construction notes for children's clothing,
-        written as I teach myself, starting at baby sizes.
+        Drafting, grading, and construction guidance for children's clothing,
+        starting at baby sizes and building toward a full wardrobe.
       </p>
       <p class="hero-actions">
         {start && (
@@ -79,14 +79,15 @@ const firstItem = nav.items[0];
 
   <section class="statement" aria-labelledby="statement-heading">
     <h2 class="statement-title" id="statement-heading">
-      A working notebook, not a pattern shop
+      A sewing guide, not a pattern shop
     </h2>
     <p class="statement-text">
-      This is a running record of me teaching myself pattern drafting, grading,
-      and construction for children's clothing. The notes are rough at first,
-      and they tighten as I actually sew each step. The long aim is a full
-      wardrobe I can draft and sew myself — baby through young child, and
-      whatever comes after that. Foundations first, then one garment at a time.
+      These pages walk through pattern drafting, grading, and construction for
+      children's clothing in a clear order you can follow. Some sections are
+      still being filled in as methods are tested on real garments. The long
+      aim is a full wardrobe you can draft and sew yourself — baby through
+      young child, and whatever comes after that. Foundations first, then one
+      garment at a time.
     </p>
   </section>
 
@@ -102,8 +103,8 @@ const firstItem = nav.items[0];
   <section class="catalog" aria-labelledby="foundations-heading">
     <h2 class="section-title" id="foundations-heading">Foundations</h2>
     <p class="section-sub">
-      Method before garments: numbers I can trust, a block that fits, and how to
-      use it.
+      Method before garments: numbers you can trust, a block that fits, and how
+      to use it.
     </p>
     <div class="card-grid">
       {nav.foundations.map((link, index) => (
@@ -187,7 +188,7 @@ const firstItem = nav.items[0];
 
   <p class="landing-credit">
     The photographs on this page are temporary Pexels placeholders, not pictures
-    of my own work or workroom:
+    of finished garments from this project:
     <a href="https://www.pexels.com/photo/a-sewing-machine-and-some-fabric-on-a-table-27949560/">Olga Volkovitskaia</a>,
     <a href="https://www.pexels.com/photo/close-up-of-a-sewing-machine-in-action-29226693/">Sergei Starostin</a>,
     and

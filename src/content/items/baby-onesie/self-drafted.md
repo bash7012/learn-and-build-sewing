@@ -6,19 +6,18 @@ order: 1
 sources:
   - "Winifred Aldrich, Metric Pattern Cutting for Children's Wear and Babywear"
   - "Reader's Digest Complete Guide to Sewing"
-  - "Personal sewing notes"
 images: []
 ---
 
-This branch starts from a real outfit. I am tracing something that already fits, then checking that rubbing against fresh measurements — not assuming the worn garment is still the truth.
+This branch starts from a real outfit. Trace something that already fits, then check that rubbing against fresh measurements — do not assume the worn garment is still the truth.
 
 The parallel branch is [Graded pattern](/items/baby-onesie/graded-pattern).
 
-## The garment I am tracing
+## The garment to trace
 
 - [ ] Name or describe the onesie or similar piece (brand optional)
 - [ ] Write why it fits
-- [ ] Write what I already dislike about it
+- [ ] Write what already needs improving
 - [ ] Note stretch, wear, and whether it has grown with the child
 
 ## Measurements vs the traced pattern
@@ -39,11 +38,11 @@ Take measurements first ([Taking Measurements](/foundations/taking-measurements)
 - [ ] Stretch / recovery the fabric has already given
 - [ ] Write what that means for the paper pattern
 
-## What I carry onto paper
+## What to carry onto paper
 
-- [ ] Seam allowances I add back
+- [ ] Seam allowances to add back
 - [ ] Closures (snaps, envelope neck, placket, or other)
-- [ ] Any change I make before I cut a toile
+- [ ] Any change to make before cutting a toile
 - [ ] Compare to [Using the Block](/foundations/using-the-block) before cutting good fabric
 
 ## Next: shared construction
@@ -67,4 +66,3 @@ Both branches use the same sewing pages from here:
 
 - Aldrich for how to measure the child and read those numbers against a body.
 - Reader's Digest for tracing and altering from an existing garment.
-- My own notes for this specific outfit and child.

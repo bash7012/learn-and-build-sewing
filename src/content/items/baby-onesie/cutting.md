@@ -5,7 +5,6 @@ status: draft
 order: 2
 sources:
   - "Reader's Digest Complete Guide to Sewing"
-  - "Personal sewing notes"
 images: []
 ---
 
@@ -13,36 +12,36 @@ Applies to both the [self-drafted](/items/baby-onesie/self-drafted) and [graded 
 
 ## Grain, nap, and layout
 
-Permanent documentation prompts:
+Checklist for documenting the cut:
 
-- [ ] How I place pieces on this knit or blend
-- [ ] Whether I cut a single layer or on the fold
-- [ ] How I watch directional print or nap
-- [ ] Write what I would do differently next time
+- [ ] How pieces sit on this knit or blend
+- [ ] Whether to cut a single layer or on the fold
+- [ ] How to watch directional print or nap
+- [ ] Write what to do differently next time
 
-### Temporary working sequence
+### Working sequence
 
-*Working checklist for a typical onesie cut — not my final method. Replace after I cut from my own pattern.*
+*Typical onesie cutting checklist — refine after cutting from your own pattern.*
 
 - [ ] Establish grain and fold; watch directional print
-- [ ] Cut back and front from my pattern
+- [ ] Cut back and front from the pattern
 - [ ] Mark neck or binding placements before removing the pattern
-- [ ] Cut sleeves and any neck, snap, or binding strips my pattern uses
+- [ ] Cut sleeves and any neck, snap, or binding strips the pattern uses
 
 ## Transferring marks
 
 - [ ] Notches
 - [ ] Fold lines
 - [ ] Snap or binding placements
-- [ ] Anything else I refuse to skip
-- [ ] Note how I marked (chalk, snips, transfer paper) once I have done it
+- [ ] Anything else not to skip
+- [ ] Note how marks were made (chalk, snips, transfer paper) once done
 
 ## Cutting notes
 
-- [ ] Scissors vs rotary — which I used and why
+- [ ] Scissors vs rotary — which tool and why
 - [ ] How the cloth shifted while cutting
-- [ ] Anything I would do differently next time
-- [ ] After the first cut: rewrite or delete the temporary sequence so it matches what I actually did
+- [ ] Anything to do differently next time
+- [ ] After the first cut: rewrite or delete the temporary sequence so it matches what actually happened
 
 ## Photo log
 
@@ -53,4 +52,3 @@ Permanent documentation prompts:
 ## Sources
 
 - Reader's Digest for layout, grain, and transferring pattern marks.
-- My own notes once I have cut the first onesie.
