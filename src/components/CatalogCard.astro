@@ -1,0 +1,30 @@
+---
+interface Props {
+  href: string;
+  title: string;
+  status?: 'draft' | 'in-progress' | 'complete';
+  text?: string;
+  image?: { src: string; alt: string };
+  hint?: string;
+}
+
+const { href, title, status, text, image, hint } = Astro.props;
+---
+
+<a class="catalog-card" href={href}>
+  <span class="catalog-card-image">
+    {image ? (
+      <img src={image.src} alt={image.alt} />
+    ) : (
+      <span class="catalog-card-blank">Photo to come</span>
+    )}
+  </span>
+  <h3 class="catalog-card-title">{title}</h3>
+  {hint && <p class="catalog-card-hint">{hint}</p>}
+  {text && <p class="catalog-card-text">{text}</p>}
+  {status && (
+    <p class="catalog-card-meta">
+      <span class={`status status-${status}`}>{status}</span>
+    </p>
+  )}
+</a>

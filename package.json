@@ -1,0 +1,29 @@
+{
+  "name": "sewing-site",
+  "type": "module",
+  "version": "0.0.1",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "check": "astro check",
+    "audit:links": "node scripts/audit-links.mjs",
+    "audit:images": "node scripts/audit-images.mjs",
+    "audit:tokens": "node scripts/audit-tokens.mjs",
+    "audit:a11y": "node scripts/audit-a11y.mjs",
+    "audit:deps": "npm audit --audit-level=high",
+    "verify": "astro check && astro build && node scripts/audit-links.mjs && node scripts/audit-images.mjs && node scripts/audit-tokens.mjs && node scripts/audit-a11y.mjs && npm audit --audit-level=high"
+  },
+  "dependencies": {
+    "astro": "^7.2.2"
+  },
+  "devDependencies": {
+    "@astrojs/check": "^0.9.10",
+    "@types/node": "^26.2.0",
+    "typescript": "^5.9.3"
+  }
+}

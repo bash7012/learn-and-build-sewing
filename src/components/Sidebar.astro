@@ -1,0 +1,87 @@
+---
+import { getCollection } from 'astro:content';
+import { SITE_TITLE, buildNav, isCurrentPath } from '../lib/nav';
+
+interface Props {
+  currentPath: string;
+}
+
+const { currentPath } = Astro.props;
+const nav = buildNav(
+  await getCollection('foundations'),
+  await getCollection('items'),
+);
+---
+
+<aside class="sidebar">
+  <a class="sidebar-brand" href="/">{SITE_TITLE}</a>
+  <nav aria-label="Site">
+    <section class="nav-group">
+      <h2 class="nav-group-title">Foundations</h2>
+      <ul class="nav-list">
+        {nav.foundations.map((link) => (
+          <li>
+            <a
+              class="nav-link"
+              href={link.href}
+              aria-current={isCurrentPath(link.href, currentPath) ? 'page' : undefined}
+            >
+              {link.title}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </section>
+    <section class="nav-group">
+      <h2 class="nav-group-title">Items</h2>
+      <ul class="nav-list">
+        {nav.items.map((item) => (
+          <li>
+            {item.href ? (
+              <a
+                class="nav-item-title"
+                href={item.href}
+                aria-current={isCurrentPath(item.href, currentPath) ? 'page' : undefined}
+              >
+                {item.title}
+              </a>
+            ) : (
+              <span class="nav-item-title">{item.title}</span>
+            )}
+            <ul class="nav-sublist">
+              {item.branches.map((link) => (
+                <li>
+                  <a
+                    class="nav-link"
+                    href={link.href}
+                    aria-current={isCurrentPath(link.href, currentPath) ? 'page' : undefined}
+                  >
+                    {link.title}
+                  </a>
+                </li>
+              ))}
+            </ul>
+            {item.shared.length > 0 && (
+              <>
+                <span class="nav-shared-label">Shared construction</span>
+                <ul class="nav-shared">
+                  {item.shared.map((link) => (
+                    <li>
+                      <a
+                        class="nav-link"
+                        href={link.href}
+                        aria-current={isCurrentPath(link.href, currentPath) ? 'page' : undefined}
+                      >
+                        {link.title}
+                      </a>
+                    </li>
+                  ))}
+                </ul>
+              </>
+            )}
+          </li>
+        ))}
+      </ul>
+    </section>
+  </nav>
+</aside>

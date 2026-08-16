@@ -1,0 +1,38 @@
+:root {
+  --color-bg: #f7f4ee;
+  --color-bg-sidebar: #f7f4ee;
+  --color-bg-elevated: #fffcf7;
+  --color-bg-code: #ebe6dc;
+  --color-text: #2c2a26;
+  --color-text-muted: #585c54;
+  --color-border: #ddd8cc;
+  --color-accent: #556246;
+  --color-accent-hover: #3f4d36;
+  --color-accent-soft: #e8eedc;
+  --color-on-accent: #fffcf7;
+  --color-mark: #e4ead4;
+  --color-draft-line: #e2ddd0;
+  --color-hero-panel: rgba(247, 244, 238, 0.94);
+  --color-hero-veil: rgba(247, 244, 238, 0.6);
+  --color-hero-veil-fade: rgba(247, 244, 238, 0);
+  --color-status-draft-bg: #e8e4dc;
+  --color-status-draft-text: #534e46;
+  --color-status-progress-bg: #e4ead4;
+  --color-status-progress-text: #3d4828;
+  --color-status-complete-bg: #d5e4d2;
+  --color-status-complete-text: #2c4a34;
+  --font-body: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, "Times New Roman", serif;
+  --font-ui: ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-size-body: 1.0625rem;
+  --font-size-small: 0.8125rem;
+  --font-size-nav: 0.875rem;
+  --font-size-brand: 1.2rem;
+  --font-size-h1: 2.15rem;
+  --font-size-h2: 1.35rem;
+  --font-size-h3: 1.12rem;
+  --font-size-lead: 1.15em;
+  --font-size-hero: clamp(1.9rem, 1.1rem + 2.4vw, 3.1rem);
+  --font-size-display: clamp(1.3rem, 1rem + 1vw, 1.8rem);
+  --line-height-body: 1.65;
+  --line-height-heading: 1.25;
+}

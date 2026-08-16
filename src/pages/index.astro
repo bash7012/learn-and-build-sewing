@@ -1,0 +1,196 @@
+---
+import { getCollection } from 'astro:content';
+import BaseLayout from '../layouts/BaseLayout.astro';
+import CatalogCard from '../components/CatalogCard.astro';
+import { SITE_TITLE, buildNav } from '../lib/nav';
+
+const foundations = await getCollection('foundations');
+const items = await getCollection('items');
+const nav = buildNav(foundations, items);
+
+const foundationCopy: Record<string, string> = {
+  'taking-measurements':
+    'A repeatable method for numbers I can trust before any later page.',
+  'building-a-bodice-block':
+    'A children\'s bodice block from measurements, not from a commercial envelope.',
+  'using-the-block':
+    'How to use a fitted block against a pattern, or against clothes that already fit.',
+};
+
+const itemCopy: Record<string, string> = {
+  'baby-onesie':
+    'The first full garment: two ways of arriving at a pattern, then one shared construction path.',
+};
+
+function firstImage(
+  collection: typeof foundations | typeof items,
+  id: string,
+) {
+  return collection.find((entry) => entry.id === id)?.data.images[0];
+}
+
+const foundationFallbacks: Record<string, { src: string; alt: string }> = {
+  'taking-measurements': {
+    src: '/images/stock/sewing-table.jpg',
+    alt: 'Placeholder: a sewing machine beside folded fabric on a work table',
+  },
+  'building-a-bodice-block': {
+    src: '/images/stock/sewing-machine-action.jpg',
+    alt: 'Placeholder: hands guiding patterned fabric through a sewing machine',
+  },
+  'using-the-block': {
+    src: '/images/stock/sewing-orange-fabric.jpg',
+    alt: 'Placeholder: orange fabric under a sewing-machine presser foot',
+  },
+};
+
+const start = nav.foundations[0];
+const firstItem = nav.items[0];
+---
+
+<BaseLayout title={SITE_TITLE} variant="landing">
+  <section class="hero">
+    <img
+      class="hero-image"
+      src="/images/stock/sewing-table.jpg"
+      alt="A sewing machine beside folded fabric, thread, and flowers on a work table"
+      width="1600"
+      height="1067"
+    />
+    <div class="hero-panel">
+      <p class="hero-kicker">Learning in public</p>
+      <h1 class="hero-title">{SITE_TITLE}</h1>
+      <p class="hero-lead">
+        Drafting, grading, and construction notes for children's clothing,
+        written as I teach myself, starting at baby sizes.
+      </p>
+      <p class="hero-actions">
+        {start && (
+          <a class="button" href={start.href}>Start with measurements</a>
+        )}
+        {firstItem?.href && (
+          <a class="button button-quiet" href={firstItem.href}>
+            Follow the {firstItem.title.toLowerCase()}
+          </a>
+        )}
+      </p>
+    </div>
+  </section>
+
+  <section class="statement" aria-labelledby="statement-heading">
+    <h2 class="statement-title" id="statement-heading">
+      A working notebook, not a pattern shop
+    </h2>
+    <p class="statement-text">
+      This is a running record of me teaching myself pattern drafting, grading,
+      and construction for children's clothing. The notes are rough at first,
+      and they tighten as I actually sew each step. The long aim is a full
+      wardrobe I can draft and sew myself — baby through young child, and
+      whatever comes after that. Foundations first, then one garment at a time.
+    </p>
+  </section>
+
+  <img
+    class="band-image"
+    src="/images/stock/sewing-machine-action.jpg"
+    alt="Hands guiding patterned fabric through a sewing machine"
+    width="1600"
+    height="1067"
+    loading="lazy"
+  />
+
+  <section class="catalog" aria-labelledby="foundations-heading">
+    <h2 class="section-title" id="foundations-heading">Foundations</h2>
+    <p class="section-sub">
+      Method before garments: numbers I can trust, a block that fits, and how to
+      use it.
+    </p>
+    <div class="card-grid">
+      {nav.foundations.map((link, index) => (
+        <CatalogCard
+          href={link.href}
+          title={link.title}
+          status={link.status}
+          hint={`Step ${String(index + 1).padStart(2, '0')}`}
+          text={foundationCopy[link.id]}
+          image={firstImage(foundations, link.id) ?? foundationFallbacks[link.id]}
+        />
+      ))}
+    </div>
+  </section>
+
+  <section class="catalog" aria-labelledby="items-heading">
+    <h2 class="section-title" id="items-heading">Items</h2>
+    <p class="section-sub">
+      One garment at a time, from measurements through to a finished seam.
+    </p>
+    {nav.items.map((item) => {
+      const entry = items.find((candidate) => candidate.id === item.slug);
+      const photo = entry?.data.images[0];
+      return (
+        <article class="feature">
+          <div class="feature-media">
+            {photo ? (
+              <img src={photo.src} alt={photo.alt} loading="lazy" />
+            ) : (
+              <img
+                src="/images/stock/sewing-orange-fabric.jpg"
+                alt="Placeholder: orange fabric under a sewing-machine presser foot"
+                width="1600"
+                height="2400"
+                loading="lazy"
+              />
+            )}
+          </div>
+          <div class="feature-body">
+            <h3 class="feature-title">{item.title}</h3>
+            {entry && (
+              <p class="feature-meta">
+                <span class={`status status-${entry.data.status}`}>
+                  {entry.data.status}
+                </span>
+              </p>
+            )}
+            {itemCopy[item.slug] && (
+              <p class="feature-text">{itemCopy[item.slug]}</p>
+            )}
+            {item.branches.length > 0 && (
+              <div class="feature-list">
+                <p class="feature-list-label">Two pattern branches</p>
+                <ul>
+                  {item.branches.map((link) => (
+                    <li><a href={link.href}>{link.title}</a></li>
+                  ))}
+                </ul>
+              </div>
+            )}
+            {item.shared.length > 0 && (
+              <div class="feature-list">
+                <p class="feature-list-label">Shared construction</p>
+                <ul>
+                  {item.shared.map((link) => (
+                    <li><a href={link.href}>{link.title}</a></li>
+                  ))}
+                </ul>
+              </div>
+            )}
+            {item.href && (
+              <p class="feature-actions">
+                <a class="button" href={item.href}>Open {item.title}</a>
+              </p>
+            )}
+          </div>
+        </article>
+      );
+    })}
+  </section>
+
+  <p class="landing-credit">
+    The photographs on this page are temporary Pexels placeholders, not pictures
+    of my own work or workroom:
+    <a href="https://www.pexels.com/photo/a-sewing-machine-and-some-fabric-on-a-table-27949560/">Olga Volkovitskaia</a>,
+    <a href="https://www.pexels.com/photo/close-up-of-a-sewing-machine-in-action-29226693/">Sergei Starostin</a>,
+    and
+    <a href="https://www.pexels.com/photo/orange-fabric-in-sewing-machine-9850085/">Ron Lach</a>.
+  </p>
+</BaseLayout>

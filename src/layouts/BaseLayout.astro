@@ -1,0 +1,98 @@
+---
+import '../styles/tokens.css';
+import '../styles/global.css';
+import Sidebar from '../components/Sidebar.astro';
+import { SITE_TITLE } from '../lib/nav';
+
+interface Props {
+  title: string;
+  kicker?: string;
+  status?: 'draft' | 'in-progress' | 'complete';
+  date?: Date;
+  sources?: string[];
+  images?: { src: string; alt: string }[];
+  /** `landing` drops the page header and lets the page run edge to edge. */
+  variant?: 'page' | 'landing';
+}
+
+const {
+  title,
+  kicker,
+  status,
+  date,
+  sources = [],
+  images = [],
+  variant = 'page',
+} = Astro.props;
+
+const isLanding = variant === 'landing';
+
+const pageTitle = title === SITE_TITLE ? title : `${title} — ${SITE_TITLE}`;
+const formattedDate = date
+  ? date.toLocaleDateString('en-GB', {
+      day: 'numeric',
+      month: 'long',
+      year: 'numeric',
+    })
+  : undefined;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{pageTitle}</title>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="shell">
+      <input id="nav-toggle" class="nav-toggle" type="checkbox" />
+      <label class="nav-toggle-label" for="nav-toggle">Menu</label>
+      <Sidebar currentPath={Astro.url.pathname} />
+      <main id="main" class={isLanding ? 'main main-landing' : 'main'}>
+        {!isLanding && (
+          <header class="page-header">
+            {kicker && <p class="page-kicker">{kicker}</p>}
+            <h1>{title}</h1>
+            {(status || formattedDate) && (
+              <div class="page-meta">
+                {status && (
+                  <span class={`status status-${status}`}>{status}</span>
+                )}
+                {formattedDate && <time datetime={date?.toISOString()}>{formattedDate}</time>}
+              </div>
+            )}
+          </header>
+        )}
+        <slot />
+        {images.length > 0 ? (
+          <section class="images-block" aria-label="Photos">
+            <h2>Photos</h2>
+            <div class="image-grid">
+              {images.map((image) => (
+                <img src={image.src} alt={image.alt} />
+              ))}
+            </div>
+          </section>
+        ) : (
+          status && (
+            <p class="note">Photos will appear here as I sew.</p>
+          )
+        )}
+        {sources.length > 0 && (
+          <section class="sources-block" aria-label="Referenced sources">
+            <h2>Referenced sources</h2>
+            <ul>
+              {sources.map((source) => (
+                <li>{source}</li>
+              ))}
+            </ul>
+          </section>
+        )}
+      </main>
+    </div>
+  </body>
+</html>
