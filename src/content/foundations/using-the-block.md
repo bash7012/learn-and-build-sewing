@@ -9,9 +9,9 @@ sources:
 images: []
 ---
 
-A fitted block is not a garment. While learning, use it two ways: as a check against a pattern already on hand, and as a check against clothes that already fit.
+A fitted block is not a garment. While learning, use it two ways: to check a pattern you already have, and to check clothes that already fit.
 
-Keep both approaches together because they are the same skill from two starting points.
+Keep both approaches together — same skill, two starting points.
 
 ## When to use the block vs an existing pattern
 
@@ -25,7 +25,7 @@ Keep both approaches together because they are the same skill from two starting 
 This is the "there is a printed pattern, but the child sits between sizes" branch.
 
 - [ ] Note which points the block says to move
-- [ ] Note what not to average blindly
+- [ ] Note what not to average without checking
 - [ ] Check whether the graded outline still matches the body against the block
 
 ### What to compare
@@ -45,11 +45,11 @@ This is the "there is a printed pattern, but the child sits between sizes" branc
 
 ## Altering a paper cutout traced from an existing garment
 
-This is the "this onesie already fits, so take a rubbing of it" branch.
+This is the "this onesie already fits, so trace it onto paper" branch.
 
 - [ ] Choose the garment and why it fits (and what already needs improving)
 - [ ] Trace carefully; note where seams hide the true shape
-- [ ] Compare the rubbing to the block and to fresh measurements
+- [ ] Compare the paper trace to the block and to fresh measurements
 
 ### Tracing without wrecking the garment
 
@@ -57,7 +57,7 @@ This is the "this onesie already fits, so take a rubbing of it" branch.
 - [ ] Account for stretch in the worn cloth
 - [ ] Add back seam allowances and closures on paper only
 
-### Checking the rubbing against the block
+### Checking the paper trace against the block
 
 - [ ] Mark where the worn garment has already eased
 - [ ] Mark where it has stretched
@@ -67,8 +67,8 @@ This is the "this onesie already fits, so take a rubbing of it" branch.
 ## Photo log
 
 - [ ] Block next to a graded pattern outline
-- [ ] Block next to a garment rubbing
-- [ ] Annotated paper with moves written on it
+- [ ] Block next to a garment trace
+- [ ] Paper with moves written on it
 
 ## Sources
 

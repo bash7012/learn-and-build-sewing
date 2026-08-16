@@ -43,7 +43,7 @@ Checklist for documenting the sew:
 ## Final notes
 
 - [ ] What to change on the next onesie
-- [ ] Which branch's pattern was more trustworthy ([Self-drafted](/items/baby-onesie/self-drafted) or [Graded pattern](/items/baby-onesie/graded-pattern))
+- [ ] Which branch's pattern was more reliable ([Self-drafted](/items/baby-onesie/self-drafted) or [Graded pattern](/items/baby-onesie/graded-pattern))
 - [ ] After the first real sew: replace the temporary sequence above
 
 ## Photo log

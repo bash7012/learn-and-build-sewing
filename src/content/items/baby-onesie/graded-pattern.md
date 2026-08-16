@@ -8,17 +8,17 @@ sources:
 images: []
 ---
 
-This branch starts from a formal or commercial pattern. Take measurements, see where the child sits on the size chart, and grade between sizes instead of picking the nearest envelope number and hoping.
+This branch starts from a store-bought pattern. Take measurements, see where the child sits on the size chart, and grade between sizes instead of picking the nearest printed size and hoping.
 
 The parallel branch is [Self-drafted](/items/baby-onesie/self-drafted).
 
-## The commercial or formal pattern
+## The store-bought pattern
 
-Fill this in after the envelope is in hand — do not invent a pattern name.
+Fill this in after you have the pattern in hand — do not invent a pattern name.
 
 - [ ] Record pattern name and publisher
 - [ ] Record size range
-- [ ] Note what the envelope means by ease
+- [ ] Note what the pattern packet means by ease
 - [ ] Note which size it suggests cutting before grading
 
 ## Child's measurements vs the size chart
@@ -27,7 +27,7 @@ Fill this in after the envelope is in hand — do not invent a pattern name.
 - [ ] Mark which size the child is *near* at chest
 - [ ] Mark which size the child is *near* at length
 - [ ] Mark any other key point that sits on a different size
-- [ ] Record near sizes only — not the size to blindly cut
+- [ ] Record near sizes only — not the size to cut without checking
 
 ## Grading between sizes
 
@@ -35,7 +35,7 @@ Fill this in after the envelope is in hand — do not invent a pattern name.
 - [ ] Do not average everything if one measurement is a full size off
 - [ ] True the seams after blending
 - [ ] Check the graded outline against the block ([Using the Block](/foundations/using-the-block))
-- [ ] Write down every move; do not invent grading increments that have not been made
+- [ ] Write down every move; do not invent grading steps that have not been made
 
 ## Points not to guess
 
@@ -57,11 +57,11 @@ Both branches use the same sewing pages from here:
 
 ## Photo log
 
-- [ ] Envelope or size chart
+- [ ] Pattern packet or size chart
 - [ ] Blended paper pattern
 - [ ] Notes written on the pattern
 
 ## Sources
 
-- Aldrich for children's grading increments and for checking a graded outline against the body.
+- Aldrich for children's grading steps and for checking a graded outline against the body.
 - See also [Using the Block](/foundations/using-the-block).

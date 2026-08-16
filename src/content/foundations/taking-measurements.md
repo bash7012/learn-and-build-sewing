@@ -8,7 +8,7 @@ sources:
 images: []
 ---
 
-Start here because every later page depends on numbers you can trust. Children's bodies change quickly, and they do not stand still, so this is as much about a repeatable method as it is about the tape measure.
+Start here because every later page depends on numbers you can trust. Kids' bodies change quickly, and they do not stand still, so this is as much about a method you can repeat as it is about the tape measure.
 
 Keep exact body measurements private. On this page, focus on *how* you measure, which size you are near, and what to do differently next time.
 
@@ -44,7 +44,7 @@ For each point below, tick when it has been taken and write *how* it was taken �
 - [ ] Date the Aldrich edition in use
 - [ ] Note age, height, and weight privately
 - [ ] Compare against Aldrich children's charts
-- [ ] Record which size the child is *near* at chest, length, and any other key point — not which size to blindly cut
+- [ ] Record which size the child is *near* at chest, length, and any other key point — not the size to cut without checking
 - [ ] Link this session to [Building a Bodice Block](/foundations/building-a-bodice-block) when ready to draft
 
 ## Photo log

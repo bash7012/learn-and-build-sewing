@@ -13,12 +13,12 @@ specs:
   - label: Skill level
     value: Beginner
   - label: Pattern paths
-    value: Self-drafted, and graded from a commercial or formal pattern
+    value: Self-drafted, and graded from a store-bought pattern
   - label: Cloth
     value: Cotton with a small percentage of nylon
 ---
 
-This is the first full item: one garment, two ways of arriving at a pattern, then one shared construction path.
+This is the first full item: one garment, two ways to get a pattern, then one shared path to sew it.
 
 This is not a polished onesie tutorial. Use it to learn how a baby garment is drafted, graded, cut, fitted, bound, and sewn — and to write the method down while it is still taking shape.
 
@@ -27,7 +27,7 @@ This is not a polished onesie tutorial. Use it to learn how a baby garment is dr
 Run these in parallel so you can see where they agree and where they fight each other.
 
 - [Self-drafted](/items/baby-onesie/self-drafted) — measurements compared against a pattern traced from an outfit that already fits.
-- [Graded pattern](/items/baby-onesie/graded-pattern) — measurements compared against a formal or commercial pattern, then graded between sizes.
+- [Graded pattern](/items/baby-onesie/graded-pattern) — measurements compared against a store-bought pattern, then graded between sizes.
 
 Both branches are supposed to land on the same body. If they do not, that is the lesson.
 
@@ -47,7 +47,7 @@ Once either pattern is on paper, the sewing steps are the same:
 - [ ] How stretch and recovery behave on a baby knit
 - [ ] Which binding methods stay soft and hold a raw edge
 - [ ] How much crotch and diaper ease is actually needed
-- [ ] Whether the measurements are trustworthy enough to cut good fabric
+- [ ] Whether the measurements are good enough to cut real fabric
 - [ ] Where the self-drafted and graded patterns agree
 - [ ] Where they fight each other, and which one to trust more
 

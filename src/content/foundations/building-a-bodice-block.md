@@ -8,9 +8,9 @@ sources:
 images: []
 ---
 
-This is the first draft worth owning: a basic children's bodice block built from measurements, not from a commercial envelope. Expect the first paper version to be wrong. The point is to get a fitted block you can keep coming back to.
+Notes from the table while I draft a basic children's bodice block from measurements — not a store-bought pattern. I'm sharing them so you can follow along and build your own kids' wardrobes the same way. Expect the first paper version to be wrong. The goal is a fitted block you can keep coming back to.
 
-Aldrich is the method of record on this site. The drafting sequence below is a working outline; replace the placeholders with the steps you actually use once the paper exists.
+I'm following Aldrich on this site. The steps below are a rough outline — swap in what you actually do once you've drafted it.
 
 ## Block vs pattern vs sloper
 
@@ -49,12 +49,12 @@ Record what was drafted *after* drafting it — not before.
 
 ## Seam allowance and labeling
 
-- [ ] Add seam allowance after the net block (record what was added)
+- [ ] Add seam allowance after the block itself is drafted (write down what was added)
 - [ ] Mark grain
-- [ ] Label size, date, and child (first name or "the baby" only — no identifiers)
+- [ ] Label size, date, and child (first name or "the baby" only — nothing that identifies them)
 - [ ] Make a toile in muslin or calico and fit the *block*, not a finished garment
-- [ ] Annotate every change on the paper; adjust the block, not only the toile
-- [ ] Checkpoint: no pulling, gaping, or twisting at rest and with arm movement
+- [ ] Write every change on the paper; adjust the block, not only the toile
+- [ ] Check: no pulling, gaping, or twisting at rest and with arm movement
 
 ## Photo log
 

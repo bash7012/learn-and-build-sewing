@@ -9,7 +9,7 @@ sources:
 images: []
 ---
 
-This branch starts from a real outfit. Trace something that already fits, then check that rubbing against fresh measurements — do not assume the worn garment is still the truth.
+This branch starts from a real outfit. Trace something that already fits, then check that paper trace against fresh measurements — do not assume the worn garment is still right.
 
 The parallel branch is [Graded pattern](/items/baby-onesie/graded-pattern).
 
@@ -22,11 +22,11 @@ The parallel branch is [Graded pattern](/items/baby-onesie/graded-pattern).
 
 ## Measurements vs the traced pattern
 
-Take measurements first ([Taking Measurements](/foundations/taking-measurements)), then lay the rubbing next to those numbers.
+Take measurements first ([Taking Measurements](/foundations/taking-measurements)), then lay the paper trace next to those numbers.
 
 - [ ] Confirm the measurement session is dated
-- [ ] Make the rubbing
-- [ ] Lay the rubbing next to the measurement notes
+- [ ] Make the paper trace
+- [ ] Lay the paper trace next to the measurement notes
 - [ ] Do not treat the worn garment as the true body
 
 ## Where they diverge
@@ -59,7 +59,7 @@ Both branches use the same sewing pages from here:
 ## Photo log
 
 - [ ] Garment flat
-- [ ] Rubbing on paper
+- [ ] Trace on paper
 - [ ] Paper pattern ready to cut
 
 ## Sources
