@@ -389,6 +389,63 @@ a:hover {
   color: var(--color-text-muted);
 }
 
+.references {
+  max-width: 58rem;
+  margin: 0 auto;
+  padding: 0 2.25rem 4.5rem;
+}
+
+.reference-intro {
+  max-width: 44rem;
+  margin: 0.9rem auto 2rem;
+  color: var(--color-text-muted);
+  text-align: center;
+}
+
+.reference-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.reference {
+  padding: 1.4rem;
+  background: var(--color-bg-elevated);
+  border: 1px solid var(--color-border);
+}
+
+.reference-link {
+  display: flex;
+  gap: 0.65rem;
+  align-items: flex-start;
+  justify-content: space-between;
+  font-family: var(--font-ui);
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.reference-icon {
+  flex: 0 0 1.75rem;
+  width: 1.75rem;
+  height: 1.75rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.reference-note {
+  margin: 0.75rem 0 0;
+  color: var(--color-text-muted);
+  font-family: var(--font-ui);
+  font-size: var(--font-size-small);
+  line-height: 1.55;
+}
+
 .band-image {
   display: block;
   width: 100%;
@@ -735,6 +792,14 @@ a:hover {
 
   .statement {
     padding: 3rem 1.1rem;
+  }
+
+  .references {
+    padding: 0 1.1rem 3rem;
+  }
+
+  .reference-list {
+    grid-template-columns: 1fr;
   }
 
   .catalog {

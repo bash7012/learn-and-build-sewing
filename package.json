@@ -15,8 +15,9 @@
     "audit:images": "node scripts/audit-images.mjs",
     "audit:tokens": "node scripts/audit-tokens.mjs",
     "audit:a11y": "node scripts/audit-a11y.mjs",
+    "audit:home-references": "node scripts/audit-home-references.mjs",
     "audit:deps": "npm audit --audit-level=high",
-    "verify": "astro check && astro build && node scripts/audit-links.mjs && node scripts/audit-images.mjs && node scripts/audit-tokens.mjs && node scripts/audit-a11y.mjs && npm audit --audit-level=high"
+    "verify": "astro check && astro build && node scripts/audit-links.mjs && node scripts/audit-images.mjs && node scripts/audit-tokens.mjs && node scripts/audit-a11y.mjs && node scripts/audit-home-references.mjs && npm audit --audit-level=high"
   },
   "dependencies": {
     "astro": "^7.2.2"

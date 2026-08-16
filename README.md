@@ -12,7 +12,7 @@ A personal static site for documenting a self-taught path through children's pat
 | `npm run preview` | Preview the production build |
 | `npm run verify` | Typecheck, build, then run link/image/token/a11y/dependency audits |
 
-Vercel runs `npm run verify` on every deploy. Preview URLs are the review board; only promote a passing preview to production.
+Vercel runs `npm run verify` on every deploy. Pushing `main` deploys Production after that verify passes; treat a Ready Production deploy as shipped.
 
 ## Content
 
